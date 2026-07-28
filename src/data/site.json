@@ -1,0 +1,93 @@
+{
+  "name": "Muhamad Kurniawan Fauzi",
+  "shortName": "Fauzi",
+  "siteUrl": "",
+  "email": "krnwnfauzi19@gmail.com",
+  "linkedin": "https://linkedin.com/in/mkfauz",
+  "resume": "/resume.pdf",
+  "defaultLocale": "en",
+  "locales": ["en", "id"],
+  "profile": {
+    "role": {
+      "en": "Software Engineer focused on Backend Systems & Infrastructure",
+      "id": "Software Engineer yang berfokus pada Sistem Backend & Infrastruktur"
+    },
+    "headline": {
+      "en": "Software that works beyond localhost.",
+      "id": "Software yang tetap bekerja di luar localhost."
+    },
+    "summary": {
+      "en": "I design, integrate, and deploy reliable software for real operational environments, from production platforms and public products to embedded systems and applied AI.",
+      "id": "Saya merancang, mengintegrasikan, dan mendeploy software untuk kebutuhan operasional nyata, mulai dari platform production dan produk publik hingga sistem embedded dan applied AI."
+    },
+    "availability": {
+      "en": "Open to Software Engineering and DevOps opportunities",
+      "id": "Terbuka untuk peluang Software Engineering dan DevOps"
+    },
+    "location": {
+      "en": "Semarang, Indonesia",
+      "id": "Semarang, Indonesia"
+    },
+    "education": {
+      "en": "Bachelor of Computer Engineering (S.T.), Universitas Negeri Semarang, 2026",
+      "id": "Sarjana Teknik Komputer (S.T.), Universitas Negeri Semarang, 2026"
+    }
+  },
+  "proof": [
+    {"value": "11 months", "en": "production engineering on FACETRO", "id": "engineering production pada FACETRO"},
+    {"value": "21,985", "en": "internship listings indexed", "id": "lowongan magang terindeks"},
+    {"value": "100", "en": "domains checked per batch", "id": "domain diperiksa per batch"},
+    {"value": "5", "en": "optimization algorithms evaluated", "id": "algoritma optimasi dievaluasi"}
+  ],
+  "capabilities": [
+    {
+      "key": "backend",
+      "title": {"en": "Backend Systems", "id": "Sistem Backend"},
+      "description": {"en": "REST APIs, authentication, databases, real-time communication, reporting, and service integration.", "id": "REST API, autentikasi, database, komunikasi real-time, reporting, dan integrasi service."}
+    },
+    {
+      "key": "infra",
+      "title": {"en": "Infrastructure & DevOps", "id": "Infrastruktur & DevOps"},
+      "description": {"en": "Containers, Linux services, deployment automation, reverse proxies, edge deployment, and operational tooling.", "id": "Container, Linux services, otomasi deployment, reverse proxy, edge deployment, dan tooling operasional."}
+    },
+    {
+      "key": "data",
+      "title": {"en": "Data & Applied AI", "id": "Data & Applied AI"},
+      "description": {"en": "Data pipelines, computer vision integration, model evaluation, forecasting experiments, and explainable workflows.", "id": "Data pipeline, integrasi computer vision, evaluasi model, eksperimen forecasting, dan workflow yang dapat dijelaskan."}
+    },
+    {
+      "key": "embedded",
+      "title": {"en": "Embedded Integration", "id": "Integrasi Embedded"},
+      "description": {"en": "ESP32 firmware, fingerprint and NFC devices, local-first administration, LVGL, and device control.", "id": "Firmware ESP32, perangkat fingerprint dan NFC, administrasi local-first, LVGL, dan kontrol perangkat."}
+    }
+  ],
+  "principles": [
+    {
+      "title": {"en": "Build for reliability", "id": "Bangun untuk reliability"},
+      "description": {"en": "Make failure states visible, recovery predictable, and operations understandable.", "id": "Buat failure state terlihat, recovery dapat diprediksi, dan operasi mudah dipahami."}
+    },
+    {
+      "title": {"en": "Start with the workflow", "id": "Mulai dari workflow"},
+      "description": {"en": "Solve the user's critical path before decorating secondary features.", "id": "Selesaikan critical path pengguna sebelum menghias fitur sekunder."}
+    },
+    {
+      "title": {"en": "Own the lifecycle", "id": "Miliki seluruh lifecycle"},
+      "description": {"en": "Think from requirements and architecture through deployment, debugging, and handoff.", "id": "Pikirkan dari requirement dan arsitektur hingga deployment, debugging, dan handoff."}
+    }
+  ],
+  "toolkit": [
+    {"icon": "code", "title": {"en": "Languages", "id": "Bahasa"}, "items": "Python, JavaScript, TypeScript, SQL, C/C++"},
+    {"icon": "api", "title": {"en": "Backend", "id": "Backend"}, "items": "Node.js, REST APIs, WebSocket, PostgreSQL, MySQL, Prisma, SQLAlchemy"},
+    {"icon": "container", "title": {"en": "Delivery", "id": "Delivery"}, "items": "Docker, Podman, Compose, NGINX, GitHub Actions, Watchtower, Netlify, Cloudflare"},
+    {"icon": "brain", "title": {"en": "Data & AI", "id": "Data & AI"}, "items": "Computer vision integration, model evaluation, forecasting, Gemini workflows, MinIO"},
+    {"icon": "chip", "title": {"en": "Embedded", "id": "Embedded"}, "items": "ESP32, PlatformIO, fingerprint, NFC, LVGL, relay and local web control"}
+  ],
+  "credentials": [
+    {"title": "Docker Foundations Professional Certificate", "issuer": "Docker, Inc.", "year": "2025", "url": "/credentials/docker-foundations.pdf"},
+    {"title": "HCIA-AI V3.5 Course", "issuer": "Huawei", "year": "2025", "url": "/credentials/hcia-ai-v35.jpg"},
+    {"title": "Belajar Back-End Pemula dengan JavaScript", "issuer": "Dicoding Indonesia", "year": "2025", "url": "/credentials/dicoding-backend-javascript.pdf"},
+    {"title": "Code Generation and Optimization Using IBM Granite", "issuer": "IBM SkillsBuild", "year": "2025", "url": "/credentials/ibm-granite-code-optimization.pdf"},
+    {"title": "Foundations of Project Management", "issuer": "Google / Coursera", "year": "2024", "url": "/credentials/google-project-management-foundations.pdf"},
+    {"title": "Fundamental of Associate Network Administrator", "issuer": "Digital Talent Scholarship", "year": "2026", "url": "/credentials/network-administrator-fundamentals.jpg"}
+  ]
+}

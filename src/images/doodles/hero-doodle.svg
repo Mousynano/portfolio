@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 660" role="img" aria-labelledby="title desc">
+  <title id="title">Connected software system</title>
+  <desc id="desc">A simple hand-drawn diagram connecting data storage, API services, and devices through a central system.</desc>
+  <rect width="760" height="660" rx="38" fill="#151917"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="92" y="92" width="198" height="150" rx="24" stroke="#9eae86" stroke-width="4"/>
+    <ellipse cx="191" cy="135" rx="43" ry="17" stroke="#e7e0d5" stroke-width="4"/>
+    <path d="M148 135v48c0 10 19 18 43 18s43-8 43-18v-48M148 159c0 10 19 18 43 18s43-8 43-18" stroke="#e7e0d5" stroke-width="4"/>
+    <text x="191" y="222" text-anchor="middle" font-family="ui-monospace, monospace" font-size="18" fill="#e7e0d5">data store</text>
+
+    <rect x="470" y="92" width="198" height="150" rx="24" stroke="#e36f43" stroke-width="4"/>
+    <path d="m527 143-24 21 24 21m84-42 24 21-24 21m-28-56-22 70" stroke="#e7e0d5" stroke-width="5"/>
+    <text x="569" y="222" text-anchor="middle" font-family="ui-monospace, monospace" font-size="18" fill="#e7e0d5">API services</text>
+
+    <circle cx="380" cy="320" r="72" stroke="#9eae86" stroke-width="4"/>
+    <circle cx="380" cy="320" r="24" stroke="#e7e0d5" stroke-width="4"/>
+    <path d="M380 273v-15m0 124v-15m47-47h15m-124 0h15m80-33 11-11m-88 88 11-11m66 11 11 11m-88-88 11 11" stroke="#e7e0d5" stroke-width="4"/>
+
+    <rect x="245" y="438" width="270" height="142" rx="24" stroke="#d6b27b" stroke-width="4"/>
+    <rect x="294" y="475" width="70" height="51" rx="8" stroke="#e7e0d5" stroke-width="4"/>
+    <path d="M314 544h30m-15-18v18M402 477h64m-64 25h46m-46 25h57" stroke="#e7e0d5" stroke-width="4"/>
+    <text x="380" y="566" text-anchor="middle" font-family="ui-monospace, monospace" font-size="18" fill="#e7e0d5">devices + clients</text>
+
+    <path d="M275 217c36 22 56 37 75 60m135-60c-36 22-56 37-75 60M380 392v46" stroke="#cfc7bc" stroke-width="4"/>
+    <path d="m341 266 13 14-19 2m84-16-13 14 19 2m-55 139 10 17 10-17" stroke="#cfc7bc" stroke-width="4"/>
+    <path d="M620 321c-37 0-72 1-111 1" stroke="#9eae86" stroke-width="3" stroke-dasharray="8 10"/>
+  </g>
+  <text x="525" y="354" font-family="ui-monospace, monospace" font-size="17" fill="#9eae86">events · data · commands</text>
+  <path d="M77 329c18-13 36-13 54 0m-54 18c18 13 36 13 54 0" fill="none" stroke="#e36f43" stroke-width="4" stroke-linecap="round"/>
+</svg>

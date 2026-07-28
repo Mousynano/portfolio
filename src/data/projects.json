@@ -1,0 +1,203 @@
+[
+  {
+    "slug": "facetro",
+    "title": "FACETRO",
+    "mark": "FT",
+    "year": "2024–2025",
+    "period": {"en": "September 2024 – July 2025", "id": "September 2024 – Juli 2025"},
+    "role": {"en": "Backend Engineer Intern", "id": "Backend Engineer Intern"},
+    "organization": "PT Global Data Inspirasi / Universitas Negeri Semarang",
+    "progression": "production",
+    "progressionLabel": {"en": "Production System", "id": "Sistem Production"},
+    "categories": ["backend", "infra", "data"],
+    "featured": true,
+    "homeOrder": 1,
+    "cover": "/assets/images/projects/facetro/cover.svg",
+    "summary": {
+      "en": "A face-recognition attendance and access platform deployed across university environments, integrating backend services, ML inference, storage, reporting, and edge devices.",
+      "id": "Platform presensi dan akses berbasis face recognition yang dideploy di lingkungan universitas, mengintegrasikan backend, ML inference, storage, reporting, dan edge device."
+    },
+    "contribution": {
+      "en": "Modularized backend services, developed operational APIs and reporting workflows, integrated Google SSO and protected object storage, and supported the GCP-to-Huawei Atlas migration.",
+      "id": "Memodularisasi backend, mengembangkan API dan workflow reporting, mengintegrasikan Google SSO serta protected object storage, dan mendukung migrasi GCP ke Huawei Atlas."
+    },
+    "cardCta": {"en": "Explore the production system", "id": "Jelajahi sistem production"},
+    "tags": ["Node.js", "REST API", "Docker", "NGINX", "MinIO", "Google SSO", "Huawei Atlas"]
+  },
+  {
+    "slug": "magangradar",
+    "title": "MagangRadar",
+    "mark": "MR",
+    "year": "2026",
+    "period": {"en": "2026", "id": "2026"},
+    "role": {"en": "Software Engineer", "id": "Software Engineer"},
+    "organization": "Independent product",
+    "progression": "public",
+    "progressionLabel": {"en": "Public Product", "id": "Produk Publik"},
+    "categories": ["backend", "data", "infra"],
+    "featured": true,
+    "homeOrder": 2,
+    "cover": "/assets/images/projects/magangradar/cover.svg",
+    "summary": {
+      "en": "A CV-aware internship prioritization platform that compares a candidate profile against 21,985 opportunities and explains which roles deserve attention first.",
+      "id": "Platform prioritas magang berbasis CV yang membandingkan profil kandidat dengan 21.985 lowongan dan menjelaskan posisi mana yang paling layak diprioritaskan."
+    },
+    "contribution": {
+      "en": "Designed the CV analysis workflow, deterministic prefiltering, recommendation scoring, privacy controls, and static-plus-serverless deployment architecture.",
+      "id": "Merancang workflow analisis CV, deterministic prefiltering, scoring rekomendasi, kontrol privasi, dan arsitektur static-plus-serverless."
+    },
+    "cardCta": {"en": "See how matching works", "id": "Lihat cara matching bekerja"},
+    "liveUrl": "https://magangradar.netlify.app/",
+    "liveLabel": {"en": "Try MagangRadar", "id": "Coba MagangRadar"},
+    "tags": ["Next.js", "Netlify Functions", "Gemini", "Static Data", "Privacy", "Ranking"]
+  },
+  {
+    "slug": "fingerprint-attendance",
+    "title": "Fingerprint Attendance System",
+    "mark": "FP",
+    "year": "2026",
+    "period": {"en": "2026", "id": "2026"},
+    "role": {"en": "Embedded Software Engineer", "id": "Embedded Software Engineer"},
+    "organization": "R&D installation at STEKOM Semarang and Universitas Negeri Semarang",
+    "progression": "prototype",
+    "progressionLabel": {"en": "Installed R&D Prototype", "id": "Prototipe R&D Terpasang"},
+    "categories": ["embedded", "backend"],
+    "featured": true,
+    "homeOrder": 3,
+    "cover": "/assets/images/projects/fingerprint-attendance/cover.svg",
+    "summary": {
+      "en": "A standalone local-first ESP32 attendance controller combining fingerprint authentication, local administration, relay control, offline records, and a prototype embedded display.",
+      "id": "Controller presensi standalone local-first berbasis ESP32 yang menggabungkan autentikasi fingerprint, administrasi lokal, relay control, penyimpanan offline, dan prototipe embedded display."
+    },
+    "contribution": {
+      "en": "Designed the firmware architecture, credential and presence workflows, local web administration, real-time state updates, licensing, and prototype LVGL interface.",
+      "id": "Merancang arsitektur firmware, workflow credential dan presensi, administrasi web lokal, update state real-time, licensing, dan prototipe antarmuka LVGL."
+    },
+    "cardCta": {"en": "Explore the device workflow", "id": "Jelajahi workflow perangkat"},
+    "tags": ["ESP32", "PlatformIO", "Fingerprint", "NFC", "WebSocket", "LVGL", "Local-first"]
+  },
+  {
+    "slug": "domaindesk",
+    "title": "DomainDesk",
+    "mark": "DD",
+    "year": "2026",
+    "period": {"en": "2026", "id": "2026"},
+    "role": {"en": "Software Engineer", "id": "Software Engineer"},
+    "organization": "Live product",
+    "progression": "public",
+    "progressionLabel": {"en": "Live Product", "id": "Produk Live"},
+    "categories": ["backend", "infra"],
+    "featured": false,
+    "cover": "/assets/images/projects/domaindesk/cover.svg",
+    "summary": {
+      "en": "A browser-based bulk domain checker that validates up to 100 names, normalizes RDAP results, supports cancellation and filtering, and exports a clean CSV.",
+      "id": "Bulk domain checker berbasis browser yang memvalidasi hingga 100 domain, menormalisasi hasil RDAP, mendukung pembatalan dan filter, serta mengekspor CSV."
+    },
+    "contribution": {
+      "en": "Implemented input normalization, concurrency, timeout and retry behavior, cancellation, status mapping, filtering, and CSV export without accounts, API keys, or a persistent backend.",
+      "id": "Mengimplementasikan normalisasi input, concurrency, timeout dan retry, cancellation, status mapping, filtering, dan ekspor CSV tanpa akun, API key, atau backend persisten."
+    },
+    "cardCta": {"en": "See the bulk-checking workflow", "id": "Lihat workflow bulk checking"},
+    "liveUrl": "https://domaindesk.netlify.app/",
+    "liveLabel": {"en": "Try DomainDesk", "id": "Coba DomainDesk"},
+    "tags": ["React", "TypeScript", "RDAP", "Concurrency", "CSV", "Netlify"]
+  },
+  {
+    "slug": "eventalpha",
+    "title": "EventAlpha",
+    "mark": "EA",
+    "year": "2026",
+    "period": {"en": "2026 – Present", "id": "2026 – Sekarang"},
+    "role": {"en": "Software & AI Systems Engineer", "id": "Software & AI Systems Engineer"},
+    "organization": "Independent R&D product",
+    "progression": "development",
+    "progressionLabel": {"en": "In Development", "id": "Dalam Pengembangan"},
+    "categories": ["backend", "data", "infra"],
+    "featured": false,
+    "waitlist": true,
+    "waitlistLabel": {"en": "Waitlist opening soon", "id": "Waitlist segera dibuka"},
+    "cover": "/assets/images/projects/eventalpha/cover.svg",
+    "summary": {
+      "en": "A modular Indonesian stock research platform combining market ingestion, corporate-action and news evidence, experiment tooling, model governance, and decision-support workflows.",
+      "id": "Platform riset saham Indonesia modular yang menggabungkan market ingestion, evidence corporate action dan berita, experiment tooling, model governance, dan workflow decision-support."
+    },
+    "contribution": {
+      "en": "Designed the service architecture, data and training workflow, model registry, evidence pipeline, container deployment, and explicit boundaries between current capabilities and roadmap features.",
+      "id": "Merancang arsitektur service, workflow data dan training, model registry, evidence pipeline, container deployment, serta batas yang jelas antara fitur saat ini dan roadmap."
+    },
+    "cardCta": {"en": "Explore the research workflow", "id": "Jelajahi workflow riset"},
+    "tags": ["React", "Express", "FastAPI", "PostgreSQL", "Redis", "MinIO", "Machine Learning"]
+  },
+  {
+    "slug": "adaptive-cruise-control",
+    "title": "Safety-Oriented Adaptive Cruise Control Optimization",
+    "mark": "ACC",
+    "year": "2026",
+    "period": {"en": "Submitted", "id": "Submitted"},
+    "role": {"en": "Researcher & Software Contributor", "id": "Researcher & Software Contributor"},
+    "organization": "Universitas Negeri Semarang research",
+    "progression": "research",
+    "progressionLabel": {"en": "Submitted Research", "id": "Riset Submitted"},
+    "categories": ["data", "research"],
+    "featured": false,
+    "cover": "/assets/images/projects/acc/cover.svg",
+    "summary": {
+      "en": "A comparative study of five metaheuristic algorithms for tuning a PID-based adaptive cruise controller under stability, robustness, response, and safety criteria.",
+      "id": "Studi komparatif lima algoritma metaheuristik untuk tuning adaptive cruise controller berbasis PID dengan kriteria stabilitas, robustness, response, dan safety."
+    },
+    "contribution": {
+      "en": "Contributed methodology, simulation software, optimization implementation, formal analysis, visualization, and the original manuscript draft.",
+      "id": "Berkontribusi pada metodologi, software simulasi, implementasi optimasi, analisis formal, visualisasi, dan draft awal manuskrip."
+    },
+    "cardCta": {"en": "Explore the research and results", "id": "Jelajahi riset dan hasilnya"},
+    "tags": ["MATLAB/Simulation", "PID", "PSO", "GA", "KMA", "SKA", "HOA"]
+  },
+  {
+    "slug": "dqn-collision-avoidance",
+    "title": "Deep Reinforcement Learning Collision Avoidance",
+    "mark": "DQN",
+    "year": "2026",
+    "period": {"en": "Draft", "id": "Draft"},
+    "role": {"en": "Research Collaboration", "id": "Kolaborasi Riset"},
+    "organization": "Collaborative research manuscript",
+    "progression": "research",
+    "progressionLabel": {"en": "Draft Research", "id": "Riset Draft"},
+    "categories": ["data", "research"],
+    "featured": false,
+    "cover": "/assets/images/projects/dqn/cover.svg",
+    "summary": {
+      "en": "A comparative collision-avoidance study using DQN, DDQN, and D3QN, presented here as a research collaboration rather than a solo implementation claim.",
+      "id": "Studi komparatif collision avoidance menggunakan DQN, DDQN, dan D3QN, ditampilkan sebagai kolaborasi riset, bukan klaim implementasi tunggal."
+    },
+    "contribution": {
+      "en": "Performed program testing, supported reproducibility preparation, and contributed to technical manuscript writing and copy editing.",
+      "id": "Melakukan pengujian program, mendukung persiapan reproducibility, serta berkontribusi pada penulisan teknis dan copy editing manuskrip."
+    },
+    "cardCta": {"en": "See my collaboration scope", "id": "Lihat ruang lingkup kontribusi"},
+    "tags": ["DQN", "DDQN", "D3QN", "Testing", "Reproducibility", "Technical Writing"]
+  },
+  {
+    "slug": "tilapia-water-quality",
+    "title": "Smart Tilapia Water Quality System",
+    "mark": "WQ",
+    "year": "2026",
+    "period": {"en": "Submitted", "id": "Submitted"},
+    "role": {"en": "Research Collaboration", "id": "Kolaborasi Riset"},
+    "organization": "Collaborative research manuscript",
+    "progression": "research",
+    "progressionLabel": {"en": "Submitted Research", "id": "Riset Submitted"},
+    "categories": ["embedded", "data", "research"],
+    "featured": false,
+    "cover": "/assets/images/projects/tilapia/cover.svg",
+    "summary": {
+      "en": "A smart aquaculture study combining sensor monitoring and fuzzy logic for interpreting water-quality conditions in tilapia cultivation.",
+      "id": "Studi smart aquaculture yang menggabungkan monitoring sensor dan fuzzy logic untuk menginterpretasikan kondisi kualitas air budidaya tilapia."
+    },
+    "contribution": {
+      "en": "Contributed paper framing, research-design review, reference validation, manuscript conversion and editing, and project administration.",
+      "id": "Berkontribusi pada framing paper, review desain riset, validasi referensi, konversi dan editing manuskrip, serta administrasi proyek."
+    },
+    "cardCta": {"en": "See my collaboration scope", "id": "Lihat ruang lingkup kontribusi"},
+    "tags": ["IoT", "Water Quality", "Fuzzy Logic", "Research Design", "Technical Editing"]
+  }
+]
