@@ -1,42 +1,126 @@
 [
   {
+    "slug": "deployee",
+    "title": "Deployee",
+    "mark": "DP",
+    "year": "2026",
+    "period": {
+      "en": "August 2026 – Present",
+      "id": "Agustus 2026 – Sekarang"
+    },
+    "role": {
+      "en": "Intern · Software Engineering / Infrastructure",
+      "id": "Intern · Software Engineering / Infrastruktur"
+    },
+    "organization": "PT Sakura System Solutions",
+    "progression": "production",
+    "progressionLabel": {
+      "en": "Internal Production Pilot",
+      "id": "Pilot Production Internal"
+    },
+    "categories": [
+      "backend",
+      "infra"
+    ],
+    "featured": true,
+    "homeOrder": 1,
+    "cover": "/assets/images/projects/deployee/cover.svg",
+    "summary": {
+      "en": "An internal deployment framework built around a server-agent model for environments where client configuration, networking constraints, rollback, and day-two operations matter more than a one-click demo.",
+      "id": "Framework deployment internal berbasis model server-agent untuk environment yang menempatkan konfigurasi client, constraint jaringan, rollback, dan operasi setelah deployment sebagai masalah utama, bukan sekadar demo satu klik."
+    },
+    "contribution": {
+      "en": "Acted as the primary implementer and technical decision-maker for the PoC: architecture, outbound-oriented agent communication, deployment state, configuration and exposure modes, logs/resources, recovery flows, and production pilot setup.",
+      "id": "Menjadi implementer utama dan technical decision-maker untuk PoC: arsitektur, komunikasi agent berorientasi outbound, deployment state, mode konfigurasi dan exposure, log/resource, recovery flow, serta setup pilot production."
+    },
+    "cardCta": {
+      "en": "Explore the deployment framework",
+      "id": "Jelajahi deployment framework"
+    },
+    "tags": [
+      "Linux",
+      "Docker",
+      "Compose",
+      "NGINX",
+      "Deployment Automation",
+      "Agent Architecture",
+      "Rollback"
+    ]
+  },
+  {
     "slug": "facetro",
     "title": "FACETRO",
     "mark": "FT",
     "year": "2024–2025",
-    "period": {"en": "September 2024 – July 2025", "id": "September 2024 – Juli 2025"},
-    "role": {"en": "Backend Engineer Intern", "id": "Backend Engineer Intern"},
+    "period": {
+      "en": "September 2024 – July 2025",
+      "id": "September 2024 – Juli 2025"
+    },
+    "role": {
+      "en": "Backend Engineer Intern",
+      "id": "Backend Engineer Intern"
+    },
     "organization": "PT Global Data Inspirasi / Universitas Negeri Semarang",
     "progression": "production",
-    "progressionLabel": {"en": "Production System", "id": "Sistem Production"},
-    "categories": ["backend", "infra", "data"],
+    "progressionLabel": {
+      "en": "Production System",
+      "id": "Sistem Production"
+    },
+    "categories": [
+      "backend",
+      "infra",
+      "data"
+    ],
     "featured": true,
-    "homeOrder": 1,
     "cover": "/assets/images/projects/facetro/cover.svg",
     "summary": {
       "en": "A face-recognition attendance and access platform deployed across university environments, integrating backend services, ML inference, storage, reporting, and edge devices.",
       "id": "Platform presensi dan akses berbasis face recognition yang dideploy di lingkungan universitas, mengintegrasikan backend, ML inference, storage, reporting, dan edge device."
     },
     "contribution": {
-      "en": "Modularized backend services, developed operational APIs and reporting workflows, integrated Google SSO and protected object storage, and supported the GCP-to-Huawei Atlas migration.",
-      "id": "Memodularisasi backend, mengembangkan API dan workflow reporting, mengintegrasikan Google SSO serta protected object storage, dan mendukung migrasi GCP ke Huawei Atlas."
+      "en": "Modularized backend services, developed operational APIs and reporting workflows, integrated Google SSO and protected object storage, and supported the migration from Google Cloud Platform to Huawei Atlas edge infrastructure.",
+      "id": "Memodularisasi backend, mengembangkan API dan workflow reporting, mengintegrasikan Google SSO serta protected object storage, dan mendukung migrasi dari Google Cloud Platform ke infrastruktur edge Huawei Atlas."
     },
-    "cardCta": {"en": "Explore the production system", "id": "Jelajahi sistem production"},
-    "tags": ["Node.js", "REST API", "Docker", "NGINX", "MinIO", "Google SSO", "Huawei Atlas"]
+    "cardCta": {
+      "en": "Explore the production system",
+      "id": "Jelajahi sistem production"
+    },
+    "tags": [
+      "Node.js",
+      "REST API",
+      "Docker",
+      "NGINX",
+      "MinIO",
+      "Google SSO",
+      "Huawei Atlas"
+    ],
+    "homeOrder": 2
   },
   {
     "slug": "magangradar",
     "title": "MagangRadar",
     "mark": "MR",
     "year": "2026",
-    "period": {"en": "2026", "id": "2026"},
-    "role": {"en": "Software Engineer", "id": "Software Engineer"},
+    "period": {
+      "en": "2026",
+      "id": "2026"
+    },
+    "role": {
+      "en": "Software Engineer",
+      "id": "Software Engineer"
+    },
     "organization": "Independent product",
     "progression": "public",
-    "progressionLabel": {"en": "Public Product", "id": "Produk Publik"},
-    "categories": ["backend", "data", "infra"],
-    "featured": true,
-    "homeOrder": 2,
+    "progressionLabel": {
+      "en": "Public Product",
+      "id": "Produk Publik"
+    },
+    "categories": [
+      "backend",
+      "data",
+      "infra"
+    ],
+    "featured": false,
     "cover": "/assets/images/projects/magangradar/cover.svg",
     "summary": {
       "en": "A CV-aware internship prioritization platform that compares a candidate profile against 21,985 opportunities and explains which roles deserve attention first.",
@@ -46,24 +130,48 @@
       "en": "Designed the CV analysis workflow, deterministic prefiltering, recommendation scoring, privacy controls, and static-plus-serverless deployment architecture.",
       "id": "Merancang workflow analisis CV, deterministic prefiltering, scoring rekomendasi, kontrol privasi, dan arsitektur static-plus-serverless."
     },
-    "cardCta": {"en": "See how matching works", "id": "Lihat cara matching bekerja"},
+    "cardCta": {
+      "en": "See how matching works",
+      "id": "Lihat cara matching bekerja"
+    },
     "liveUrl": "https://magangradar.netlify.app/",
-    "liveLabel": {"en": "Try MagangRadar", "id": "Coba MagangRadar"},
-    "tags": ["Next.js", "Netlify Functions", "Gemini", "Static Data", "Privacy", "Ranking"]
+    "liveLabel": {
+      "en": "Try MagangRadar",
+      "id": "Coba MagangRadar"
+    },
+    "tags": [
+      "Next.js",
+      "Netlify Functions",
+      "Gemini",
+      "Static Data",
+      "Privacy",
+      "Ranking"
+    ]
   },
   {
     "slug": "fingerprint-attendance",
     "title": "Fingerprint Attendance System",
     "mark": "FP",
     "year": "2026",
-    "period": {"en": "2026", "id": "2026"},
-    "role": {"en": "Embedded Software Engineer", "id": "Embedded Software Engineer"},
+    "period": {
+      "en": "2026",
+      "id": "2026"
+    },
+    "role": {
+      "en": "Embedded Software Engineer",
+      "id": "Embedded Software Engineer"
+    },
     "organization": "R&D installation at STEKOM Semarang and Universitas Negeri Semarang",
     "progression": "prototype",
-    "progressionLabel": {"en": "Installed R&D Prototype", "id": "Prototipe R&D Terpasang"},
-    "categories": ["embedded", "backend"],
-    "featured": true,
-    "homeOrder": 3,
+    "progressionLabel": {
+      "en": "Installed R&D Prototype",
+      "id": "Prototipe R&D Terpasang"
+    },
+    "categories": [
+      "embedded",
+      "backend"
+    ],
+    "featured": false,
     "cover": "/assets/images/projects/fingerprint-attendance/cover.svg",
     "summary": {
       "en": "A standalone local-first ESP32 attendance controller combining fingerprint authentication, local administration, relay control, offline records, and a prototype embedded display.",
@@ -73,20 +181,43 @@
       "en": "Designed the firmware architecture, credential and presence workflows, local web administration, real-time state updates, licensing, and prototype LVGL interface.",
       "id": "Merancang arsitektur firmware, workflow credential dan presensi, administrasi web lokal, update state real-time, licensing, dan prototipe antarmuka LVGL."
     },
-    "cardCta": {"en": "Explore the device workflow", "id": "Jelajahi workflow perangkat"},
-    "tags": ["ESP32", "PlatformIO", "Fingerprint", "NFC", "WebSocket", "LVGL", "Local-first"]
+    "cardCta": {
+      "en": "Explore the device workflow",
+      "id": "Jelajahi workflow perangkat"
+    },
+    "tags": [
+      "ESP32",
+      "PlatformIO",
+      "Fingerprint",
+      "NFC",
+      "WebSocket",
+      "LVGL",
+      "Local-first"
+    ]
   },
   {
     "slug": "domaindesk",
     "title": "DomainDesk",
     "mark": "DD",
     "year": "2026",
-    "period": {"en": "2026", "id": "2026"},
-    "role": {"en": "Software Engineer", "id": "Software Engineer"},
+    "period": {
+      "en": "2026",
+      "id": "2026"
+    },
+    "role": {
+      "en": "Software Engineer",
+      "id": "Software Engineer"
+    },
     "organization": "Live product",
     "progression": "public",
-    "progressionLabel": {"en": "Live Product", "id": "Produk Live"},
-    "categories": ["backend", "infra"],
+    "progressionLabel": {
+      "en": "Live Product",
+      "id": "Produk Live"
+    },
+    "categories": [
+      "backend",
+      "infra"
+    ],
     "featured": false,
     "cover": "/assets/images/projects/domaindesk/cover.svg",
     "summary": {
@@ -97,72 +228,147 @@
       "en": "Implemented input normalization, concurrency, timeout and retry behavior, cancellation, status mapping, filtering, and CSV export without accounts, API keys, or a persistent backend.",
       "id": "Mengimplementasikan normalisasi input, concurrency, timeout dan retry, cancellation, status mapping, filtering, dan ekspor CSV tanpa akun, API key, atau backend persisten."
     },
-    "cardCta": {"en": "See the bulk-checking workflow", "id": "Lihat workflow bulk checking"},
+    "cardCta": {
+      "en": "See the bulk-checking workflow",
+      "id": "Lihat workflow bulk checking"
+    },
     "liveUrl": "https://domaindesk.netlify.app/",
-    "liveLabel": {"en": "Try DomainDesk", "id": "Coba DomainDesk"},
-    "tags": ["React", "TypeScript", "RDAP", "Concurrency", "CSV", "Netlify"]
+    "liveLabel": {
+      "en": "Try DomainDesk",
+      "id": "Coba DomainDesk"
+    },
+    "tags": [
+      "React",
+      "TypeScript",
+      "RDAP",
+      "Concurrency",
+      "CSV",
+      "Netlify"
+    ]
   },
   {
     "slug": "eventalpha",
     "title": "EventAlpha",
     "mark": "EA",
     "year": "2026",
-    "period": {"en": "2026 – Present", "id": "2026 – Sekarang"},
-    "role": {"en": "Software & AI Systems Engineer", "id": "Software & AI Systems Engineer"},
+    "period": {
+      "en": "2026 – Present",
+      "id": "2026 – Sekarang"
+    },
+    "role": {
+      "en": "Software & AI Systems Engineer",
+      "id": "Software & AI Systems Engineer"
+    },
     "organization": "Independent R&D product",
     "progression": "development",
-    "progressionLabel": {"en": "In Development", "id": "Dalam Pengembangan"},
-    "categories": ["backend", "data", "infra"],
+    "progressionLabel": {
+      "en": "In Development",
+      "id": "Dalam Pengembangan"
+    },
+    "categories": [
+      "backend",
+      "data",
+      "infra"
+    ],
     "featured": false,
     "waitlist": true,
-    "waitlistLabel": {"en": "Waitlist opening soon", "id": "Waitlist segera dibuka"},
+    "waitlistLabel": {
+      "en": "Waitlist opening soon",
+      "id": "Waitlist segera dibuka"
+    },
     "cover": "/assets/images/projects/eventalpha/cover.svg",
     "summary": {
-      "en": "A modular Indonesian stock research platform combining market ingestion, corporate-action and news evidence, experiment tooling, model governance, and decision-support workflows.",
-      "id": "Platform riset saham Indonesia modular yang menggabungkan market ingestion, evidence corporate action dan berita, experiment tooling, model governance, dan workflow decision-support."
+      "en": "An Indonesian stock recommendation R&D product exploring a disciplined three-part screening workflow across market behavior, company/evidence context, and statistical investability signals without becoming a trading execution app.",
+      "id": "Produk R&D rekomendasi saham Indonesia yang mengeksplorasi workflow screening tiga bagian: perilaku pasar, konteks perusahaan/evidence, dan sinyal statistik kelayakan investasi, tanpa berubah menjadi aplikasi eksekusi trading."
     },
     "contribution": {
-      "en": "Designed the service architecture, data and training workflow, model registry, evidence pipeline, container deployment, and explicit boundaries between current capabilities and roadmap features.",
-      "id": "Merancang arsitektur service, workflow data dan training, model registry, evidence pipeline, container deployment, serta batas yang jelas antara fitur saat ini dan roadmap."
+      "en": "Designed the modular data and service architecture, experiment workflow, evidence lifecycle, container deployment, and the current scope reduction toward explainable recommendations built from available data.",
+      "id": "Merancang arsitektur data dan service modular, workflow eksperimen, lifecycle evidence, container deployment, serta penyempitan scope menuju rekomendasi yang explainable dari data yang benar-benar tersedia."
     },
-    "cardCta": {"en": "Explore the research workflow", "id": "Jelajahi workflow riset"},
-    "tags": ["React", "Express", "FastAPI", "PostgreSQL", "Redis", "MinIO", "Machine Learning"]
+    "cardCta": {
+      "en": "Explore the research workflow",
+      "id": "Jelajahi workflow riset"
+    },
+    "tags": [
+      "React",
+      "Express",
+      "FastAPI",
+      "PostgreSQL",
+      "Podman",
+      "Evidence Pipelines",
+      "Experimentation"
+    ]
   },
   {
     "slug": "adaptive-cruise-control",
     "title": "Safety-Oriented Adaptive Cruise Control Optimization",
     "mark": "ACC",
     "year": "2026",
-    "period": {"en": "Submitted", "id": "Submitted"},
-    "role": {"en": "Researcher & Software Contributor", "id": "Researcher & Software Contributor"},
+    "period": {
+      "en": "2026 – Present",
+      "id": "2026 – Sekarang"
+    },
+    "role": {
+      "en": "Researcher & Software Contributor",
+      "id": "Researcher & Software Contributor"
+    },
     "organization": "Universitas Negeri Semarang research",
     "progression": "research",
-    "progressionLabel": {"en": "Submitted Research", "id": "Riset Submitted"},
-    "categories": ["data", "research"],
-    "featured": false,
+    "progressionLabel": {
+      "en": "Active Research",
+      "id": "Riset Aktif"
+    },
+    "categories": [
+      "data",
+      "research"
+    ],
+    "featured": true,
     "cover": "/assets/images/projects/acc/cover.svg",
     "summary": {
-      "en": "A comparative study of five metaheuristic algorithms for tuning a PID-based adaptive cruise controller under stability, robustness, response, and safety criteria.",
-      "id": "Studi komparatif lima algoritma metaheuristik untuk tuning adaptive cruise controller berbasis PID dengan kriteria stabilitas, robustness, response, dan safety."
+      "en": "A safety-oriented adaptive cruise control study comparing a canonical baseline with modern Differential Evolution variants under repeated optimization, response, robustness, and safety evaluation.",
+      "id": "Studi adaptive cruise control berorientasi safety yang membandingkan baseline canonical dengan varian Differential Evolution modern melalui repeated optimization, evaluasi response, robustness, dan safety."
     },
     "contribution": {
-      "en": "Contributed methodology, simulation software, optimization implementation, formal analysis, visualization, and the original manuscript draft.",
-      "id": "Berkontribusi pada metodologi, software simulasi, implementasi optimasi, analisis formal, visualisasi, dan draft awal manuskrip."
+      "en": "Own the simulation and optimization software, experimental pipeline, statistical auditing, robustness scenarios, visualization, and manuscript engineering analysis.",
+      "id": "Menangani software simulasi dan optimasi, experimental pipeline, statistical auditing, robustness scenario, visualisasi, dan analisis engineering pada manuskrip."
     },
-    "cardCta": {"en": "Explore the research and results", "id": "Jelajahi riset dan hasilnya"},
-    "tags": ["MATLAB/Simulation", "PID", "PSO", "GA", "KMA", "SKA", "HOA"]
+    "cardCta": {
+      "en": "Explore the current experiment design",
+      "id": "Jelajahi desain eksperimen saat ini"
+    },
+    "tags": [
+      "Python",
+      "Control Systems",
+      "Differential Evolution",
+      "PID",
+      "Statistics",
+      "Robustness"
+    ],
+    "homeOrder": 3
   },
   {
     "slug": "dqn-collision-avoidance",
     "title": "Deep Reinforcement Learning Collision Avoidance",
     "mark": "DQN",
     "year": "2026",
-    "period": {"en": "Draft", "id": "Draft"},
-    "role": {"en": "Research Collaboration", "id": "Kolaborasi Riset"},
+    "period": {
+      "en": "Draft",
+      "id": "Draft"
+    },
+    "role": {
+      "en": "Research Collaboration",
+      "id": "Kolaborasi Riset"
+    },
     "organization": "Collaborative research manuscript",
     "progression": "research",
-    "progressionLabel": {"en": "Draft Research", "id": "Riset Draft"},
-    "categories": ["data", "research"],
+    "progressionLabel": {
+      "en": "Draft Research",
+      "id": "Riset Draft"
+    },
+    "categories": [
+      "data",
+      "research"
+    ],
     "featured": false,
     "cover": "/assets/images/projects/dqn/cover.svg",
     "summary": {
@@ -173,20 +379,43 @@
       "en": "Performed program testing, supported reproducibility preparation, and contributed to technical manuscript writing and copy editing.",
       "id": "Melakukan pengujian program, mendukung persiapan reproducibility, serta berkontribusi pada penulisan teknis dan copy editing manuskrip."
     },
-    "cardCta": {"en": "See my collaboration scope", "id": "Lihat ruang lingkup kontribusi"},
-    "tags": ["DQN", "DDQN", "D3QN", "Testing", "Reproducibility", "Technical Writing"]
+    "cardCta": {
+      "en": "See my collaboration scope",
+      "id": "Lihat ruang lingkup kontribusi"
+    },
+    "tags": [
+      "DQN",
+      "DDQN",
+      "D3QN",
+      "Testing",
+      "Reproducibility",
+      "Technical Writing"
+    ]
   },
   {
     "slug": "tilapia-water-quality",
     "title": "Smart Tilapia Water Quality System",
     "mark": "WQ",
     "year": "2026",
-    "period": {"en": "Submitted", "id": "Submitted"},
-    "role": {"en": "Research Collaboration", "id": "Kolaborasi Riset"},
+    "period": {
+      "en": "Submitted",
+      "id": "Submitted"
+    },
+    "role": {
+      "en": "Research Collaboration",
+      "id": "Kolaborasi Riset"
+    },
     "organization": "Collaborative research manuscript",
     "progression": "research",
-    "progressionLabel": {"en": "Submitted Research", "id": "Riset Submitted"},
-    "categories": ["embedded", "data", "research"],
+    "progressionLabel": {
+      "en": "Submitted Research",
+      "id": "Riset Submitted"
+    },
+    "categories": [
+      "embedded",
+      "data",
+      "research"
+    ],
     "featured": false,
     "cover": "/assets/images/projects/tilapia/cover.svg",
     "summary": {
@@ -197,7 +426,16 @@
       "en": "Contributed paper framing, research-design review, reference validation, manuscript conversion and editing, and project administration.",
       "id": "Berkontribusi pada framing paper, review desain riset, validasi referensi, konversi dan editing manuskrip, serta administrasi proyek."
     },
-    "cardCta": {"en": "See my collaboration scope", "id": "Lihat ruang lingkup kontribusi"},
-    "tags": ["IoT", "Water Quality", "Fuzzy Logic", "Research Design", "Technical Editing"]
+    "cardCta": {
+      "en": "See my collaboration scope",
+      "id": "Lihat ruang lingkup kontribusi"
+    },
+    "tags": [
+      "IoT",
+      "Water Quality",
+      "Fuzzy Logic",
+      "Research Design",
+      "Technical Editing"
+    ]
   }
 ]

@@ -1,21 +1,23 @@
 ## Pertanyaan riset
 
-Adaptive cruise control harus menjaga jarak mengikuti yang berguna tanpa menghasilkan response yang tidak stabil atau tidak nyaman. Studi ini menguji bagaimana lima algoritma metaheuristik melakukan tuning controller PID pada beberapa objective function dan evaluasi yang berorientasi safety.
+Adaptive cruise control harus mengatur perilaku following tanpa mereduksi masalah menjadi satu angka objective “terbaik”. Studi saat ini menguji bagaimana baseline canonical Differential Evolution dan beberapa varian DE modern bekerja saat melakukan tuning controller PID melalui repeated optimization, evaluasi dynamic response, robustness, dan safety.
 
-## Yang dievaluasi
+## Desain eksperimen saat ini
 
-Studi membandingkan Genetic Algorithm, Particle Swarm Optimization, Komodo Mlipir Algorithm, Sine-KM Arithmetic Optimization, dan Hippopotamus Optimization Algorithm. Evaluasi mencakup beberapa independent run, convergence behavior, stability, robustness, time response, computational efficiency, serta skenario safety berbasis time-to-collision.
+Perbandingan saat ini mencakup **Genetic Algorithm, canonical Differential Evolution, FVRADE, RNEGDE, Neighborhood-SHADE, dan DE-NPS-FP**. Setiap objective dievaluasi melalui independent run berulang dengan population dan iteration budget yang sama agar perbandingan tidak diam-diam memberi satu metode computational opportunity lebih besar.
+
+Software mencatat convergence behavior, objective value, time-response metrics, safety measure seperti TTC/TTE, serta robustness pada beberapa physical-parameter scenario. Statistical audit mencakup pemeriksaan distribusi dan paired non-parametric comparison, bukan memperlakukan satu lucky run sebagai hasil akhir.
 
 ## Kontribusi saya
 
-Kontribusi yang terdokumentasi meliputi methodology, software simulasi, implementasi optimization framework, formal analysis, visualization, dan penulisan original manuscript draft.
+Saya mengerjakan software simulasi dan optimasi, experimental pipeline, statistical auditing, robustness scenario, visualisasi, technical analysis, dan pengembangan manuskrip. Ini adalah proyek riset dengan kontribusi software dan methodological ownership yang cukup luas sehingga keseluruhan engineering workflow dapat saya jelaskan secara langsung.
 
-Ini adalah proyek riset dengan ownership teknis yang cukup luas sehingga metode dan hasil dapat dipresentasikan secara langsung, bukan hanya sebagai peran kolaborasi.
+## Apa yang ditunjukkan hasil saat ini
 
-## Hasil
+Temuan saat ini yang paling penting bukanlah satu pemenang dramatis. Beberapa metode keluarga DE converge ke boundary-active region yang secara praktis sama, dengan perbedaan median objective value yang sangat kecil. Perbedaan yang lebih menarik justru muncul pada runtime overhead, convergence behavior, dan dispersion antar repeated run.
 
-Particle Swarm Optimization menghasilkan keseimbangan keseluruhan terbaik pada eksperimen yang dilaporkan. KMA dan SKA tetap kompetitif, sementara seluruh controller dievaluasi pada skenario stability dan safety, bukan hanya berdasarkan satu objective value.
+Artinya, pertanyaan riset bergeser dari “optimizer mana yang menghasilkan satu angka paling rendah?” menjadi apakah complexity algoritma tambahan benar-benar menghasilkan improvement kontrol yang meaningful pada evaluation budget yang sama.
 
 ## Status dan batasan
 
-Manuskrip berstatus submitted. Temuan berbasis simulasi dan tidak boleh diinterpretasikan sebagai controller kendaraan yang siap digunakan di jalan. Validasi physical system, sensor noise, actuator limit, dan skenario lalu lintas yang lebih luas tetap dibutuhkan sebelum deployment.
+Riset masih aktif dan manuskrip masih terus disempurnakan. Hasil berbasis simulasi dan tidak boleh dianggap sebagai controller kendaraan yang siap dipakai di jalan tanpa physical validation, constraint sensor dan actuator, implementation latency, serta skenario traffic yang lebih luas.

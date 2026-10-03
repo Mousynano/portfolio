@@ -6,27 +6,30 @@
   "linkedin": "https://linkedin.com/in/mkfauz",
   "resume": "/resume.pdf",
   "defaultLocale": "en",
-  "locales": ["en", "id"],
+  "locales": [
+    "en",
+    "id"
+  ],
   "profile": {
     "role": {
-      "en": "Software Engineer focused on Backend Systems & Infrastructure",
-      "id": "Software Engineer yang berfokus pada Sistem Backend & Infrastruktur"
+      "en": "Software Engineer focused on Backend, Infrastructure & Deployment Systems",
+      "id": "Software Engineer dengan fokus Backend, Infrastruktur & Deployment Systems"
     },
     "headline": {
-      "en": "Software that works beyond localhost.",
-      "id": "Software yang tetap bekerja di luar localhost."
+      "en": "I build the layer between software and where it actually runs.",
+      "id": "Saya membangun penghubung antara software dan tempat ia benar-benar berjalan."
     },
     "summary": {
-      "en": "I design, integrate, and deploy reliable software for real operational environments, from production platforms and public products to embedded systems and applied AI.",
-      "id": "Saya merancang, mengintegrasikan, dan mendeploy software untuk kebutuhan operasional nyata, mulai dari platform production dan produk publik hingga sistem embedded dan applied AI."
+      "en": "I work across backend systems, infrastructure, deployment automation, and technical integration. My strongest projects come from turning messy operational constraints into software that can be deployed, observed, recovered, and handed off clearly.",
+      "id": "Saya bekerja di area backend, infrastruktur, otomasi deployment, dan integrasi teknis. Proyek terkuat saya lahir dari mengubah constraint operasional yang berantakan menjadi software yang bisa dideploy, diamati, dipulihkan, dan di-handoff dengan jelas."
     },
     "availability": {
-      "en": "Open to Software Engineering and DevOps opportunities",
-      "id": "Terbuka untuk peluang Software Engineering dan DevOps"
+      "en": "Open to early-career FDE, Solutions Architecture, Backend, and DevOps opportunities",
+      "id": "Terbuka untuk peluang early-career FDE, Solutions Architecture, Backend, dan DevOps"
     },
     "location": {
-      "en": "Semarang, Indonesia",
-      "id": "Semarang, Indonesia"
+      "en": "Jakarta, Indonesia",
+      "id": "Jakarta, Indonesia"
     },
     "education": {
       "en": "Bachelor of Computer Engineering (S.T.), Universitas Negeri Semarang, 2026",
@@ -34,60 +37,183 @@
     }
   },
   "proof": [
-    {"value": "11 months", "en": "production engineering on FACETRO", "id": "engineering production pada FACETRO"},
-    {"value": "21,985", "en": "internship listings indexed", "id": "lowongan magang terindeks"},
-    {"value": "100", "en": "domains checked per batch", "id": "domain diperiksa per batch"},
-    {"value": "5", "en": "optimization algorithms evaluated", "id": "algoritma optimasi dievaluasi"}
+    {
+      "value": "v1.9.0",
+      "en": "Deployee internal framework iteration",
+      "id": "iterasi internal framework Deployee"
+    },
+    {
+      "value": "11 months",
+      "en": "production engineering on FACETRO",
+      "id": "engineering production pada FACETRO"
+    },
+    {
+      "value": "21,985",
+      "en": "internship listings indexed in MagangRadar",
+      "id": "lowongan magang terindeks di MagangRadar"
+    },
+    {
+      "value": "30×",
+      "en": "independent runs per objective in current ACC experiments",
+      "id": "independent run per objective pada eksperimen ACC saat ini"
+    }
   ],
   "capabilities": [
     {
       "key": "backend",
-      "title": {"en": "Backend Systems", "id": "Sistem Backend"},
-      "description": {"en": "REST APIs, authentication, databases, real-time communication, reporting, and service integration.", "id": "REST API, autentikasi, database, komunikasi real-time, reporting, dan integrasi service."}
+      "title": {
+        "en": "Backend & Service Integration",
+        "id": "Backend & Integrasi Service"
+      },
+      "description": {
+        "en": "APIs, databases, authentication, real-time communication, service boundaries, and operational workflows.",
+        "id": "API, database, autentikasi, komunikasi real-time, batas antar-service, dan workflow operasional."
+      }
     },
     {
       "key": "infra",
-      "title": {"en": "Infrastructure & DevOps", "id": "Infrastruktur & DevOps"},
-      "description": {"en": "Containers, Linux services, deployment automation, reverse proxies, edge deployment, and operational tooling.", "id": "Container, Linux services, otomasi deployment, reverse proxy, edge deployment, dan tooling operasional."}
+      "title": {
+        "en": "Infrastructure & Delivery",
+        "id": "Infrastruktur & Delivery"
+      },
+      "description": {
+        "en": "Linux, containers, reverse proxies, DNS, deployment automation, runtime exposure, and recovery-oriented delivery.",
+        "id": "Linux, container, reverse proxy, DNS, otomasi deployment, runtime exposure, dan delivery yang berorientasi recovery."
+      }
+    },
+    {
+      "key": "integration",
+      "title": {
+        "en": "Field / Solutions Engineering",
+        "id": "Field / Solutions Engineering"
+      },
+      "description": {
+        "en": "Translate operational pain points into deployable systems, debug across boundaries, and keep the handoff understandable.",
+        "id": "Menerjemahkan pain point operasional menjadi sistem yang bisa dideploy, melakukan debugging lintas boundary, dan menjaga handoff tetap mudah dipahami."
+      }
     },
     {
       "key": "data",
-      "title": {"en": "Data & Applied AI", "id": "Data & Applied AI"},
-      "description": {"en": "Data pipelines, computer vision integration, model evaluation, forecasting experiments, and explainable workflows.", "id": "Data pipeline, integrasi computer vision, evaluasi model, eksperimen forecasting, dan workflow yang dapat dijelaskan."}
-    },
-    {
-      "key": "embedded",
-      "title": {"en": "Embedded Integration", "id": "Integrasi Embedded"},
-      "description": {"en": "ESP32 firmware, fingerprint and NFC devices, local-first administration, LVGL, and device control.", "id": "Firmware ESP32, perangkat fingerprint dan NFC, administrasi local-first, LVGL, dan kontrol perangkat."}
+      "title": {
+        "en": "Applied AI & Engineering Research",
+        "id": "Applied AI & Riset Engineering"
+      },
+      "description": {
+        "en": "Experiment pipelines, model evaluation, optimization studies, evidence-oriented AI workflows, and careful capability boundaries.",
+        "id": "Experiment pipeline, evaluasi model, studi optimasi, workflow AI berbasis evidence, dan batas kemampuan yang dijelaskan secara hati-hati."
+      }
     }
   ],
   "principles": [
     {
-      "title": {"en": "Build for reliability", "id": "Bangun untuk reliability"},
-      "description": {"en": "Make failure states visible, recovery predictable, and operations understandable.", "id": "Buat failure state terlihat, recovery dapat diprediksi, dan operasi mudah dipahami."}
+      "title": {
+        "en": "Make operations visible",
+        "id": "Buat operasi terlihat"
+      },
+      "description": {
+        "en": "A deployment is not finished when it starts. Logs, health, state, rollback, and failure boundaries should remain inspectable.",
+        "id": "Deployment belum selesai hanya karena berhasil start. Log, health, state, rollback, dan failure boundary harus tetap bisa diperiksa."
+      }
     },
     {
-      "title": {"en": "Start with the workflow", "id": "Mulai dari workflow"},
-      "description": {"en": "Solve the user's critical path before decorating secondary features.", "id": "Selesaikan critical path pengguna sebelum menghias fitur sekunder."}
+      "title": {
+        "en": "Design around the real constraint",
+        "id": "Desain dari constraint nyata"
+      },
+      "description": {
+        "en": "Network access, client environments, ownership, and team workflow matter as much as the application code.",
+        "id": "Akses jaringan, environment client, ownership, dan workflow tim sama pentingnya dengan application code."
+      }
     },
     {
-      "title": {"en": "Own the lifecycle", "id": "Miliki seluruh lifecycle"},
-      "description": {"en": "Think from requirements and architecture through deployment, debugging, and handoff.", "id": "Pikirkan dari requirement dan arsitektur hingga deployment, debugging, dan handoff."}
+      "title": {
+        "en": "Leave a system others can operate",
+        "id": "Tinggalkan sistem yang bisa dioperasikan orang lain"
+      },
+      "description": {
+        "en": "Prefer explicit configuration, predictable recovery, and documentation over cleverness that only survives in the author’s head.",
+        "id": "Utamakan konfigurasi eksplisit, recovery yang predictable, dan dokumentasi daripada kecerdikan yang hanya hidup di kepala pembuatnya."
+      }
     }
   ],
   "toolkit": [
-    {"icon": "code", "title": {"en": "Languages", "id": "Bahasa"}, "items": "Python, JavaScript, TypeScript, SQL, C/C++"},
-    {"icon": "api", "title": {"en": "Backend", "id": "Backend"}, "items": "Node.js, REST APIs, WebSocket, PostgreSQL, MySQL, Prisma, SQLAlchemy"},
-    {"icon": "container", "title": {"en": "Delivery", "id": "Delivery"}, "items": "Docker, Podman, Compose, NGINX, GitHub Actions, Watchtower, Netlify, Cloudflare"},
-    {"icon": "brain", "title": {"en": "Data & AI", "id": "Data & AI"}, "items": "Computer vision integration, model evaluation, forecasting, Gemini workflows, MinIO"},
-    {"icon": "chip", "title": {"en": "Embedded", "id": "Embedded"}, "items": "ESP32, PlatformIO, fingerprint, NFC, LVGL, relay and local web control"}
+    {
+      "icon": "code",
+      "title": {
+        "en": "Languages",
+        "id": "Bahasa"
+      },
+      "items": "Python, JavaScript, TypeScript, SQL, C/C++"
+    },
+    {
+      "icon": "api",
+      "title": {
+        "en": "Backend & Data",
+        "id": "Backend & Data"
+      },
+      "items": "Node.js, Express, FastAPI, REST APIs, WebSocket, PostgreSQL, MySQL, Prisma, SQLAlchemy"
+    },
+    {
+      "icon": "container",
+      "title": {
+        "en": "Infrastructure & Delivery",
+        "id": "Infrastruktur & Delivery"
+      },
+      "items": "Linux, Docker, Podman, Compose, NGINX, Cloudflare Tunnel, DNS, Gitea, GitHub Actions"
+    },
+    {
+      "icon": "check",
+      "title": {
+        "en": "Operations & Reliability",
+        "id": "Operasi & Reliability"
+      },
+      "items": "Health checks, logs, deployment state, rollback/LKG patterns, blue-green concepts, runtime exposure"
+    },
+    {
+      "icon": "brain",
+      "title": {
+        "en": "Applied AI & Systems",
+        "id": "Applied AI & Systems"
+      },
+      "items": "Model evaluation, optimization experiments, evidence pipelines, Gemini workflows, MinIO, ESP32 integration"
+    }
   ],
   "credentials": [
-    {"title": "Docker Foundations Professional Certificate", "issuer": "Docker, Inc.", "year": "2025", "url": "/credentials/docker-foundations.pdf"},
-    {"title": "HCIA-AI V3.5 Course", "issuer": "Huawei", "year": "2025", "url": "/credentials/hcia-ai-v35.jpg"},
-    {"title": "Belajar Back-End Pemula dengan JavaScript", "issuer": "Dicoding Indonesia", "year": "2025", "url": "/credentials/dicoding-backend-javascript.pdf"},
-    {"title": "Code Generation and Optimization Using IBM Granite", "issuer": "IBM SkillsBuild", "year": "2025", "url": "/credentials/ibm-granite-code-optimization.pdf"},
-    {"title": "Foundations of Project Management", "issuer": "Google / Coursera", "year": "2024", "url": "/credentials/google-project-management-foundations.pdf"},
-    {"title": "Fundamental of Associate Network Administrator", "issuer": "Digital Talent Scholarship", "year": "2026", "url": "/credentials/network-administrator-fundamentals.jpg"}
+    {
+      "title": "Docker Foundations Professional Certificate",
+      "issuer": "Docker, Inc.",
+      "year": "2025",
+      "url": "/credentials/docker-foundations.pdf"
+    },
+    {
+      "title": "HCIA-AI V3.5 Course",
+      "issuer": "Huawei",
+      "year": "2025",
+      "url": "/credentials/hcia-ai-v35.jpg"
+    },
+    {
+      "title": "Belajar Back-End Pemula dengan JavaScript",
+      "issuer": "Dicoding Indonesia",
+      "year": "2025",
+      "url": "/credentials/dicoding-backend-javascript.pdf"
+    },
+    {
+      "title": "Code Generation and Optimization Using IBM Granite",
+      "issuer": "IBM SkillsBuild",
+      "year": "2025",
+      "url": "/credentials/ibm-granite-code-optimization.pdf"
+    },
+    {
+      "title": "Foundations of Project Management",
+      "issuer": "Google / Coursera",
+      "year": "2024",
+      "url": "/credentials/google-project-management-foundations.pdf"
+    },
+    {
+      "title": "Fundamental of Associate Network Administrator",
+      "issuer": "Digital Talent Scholarship",
+      "year": "2026",
+      "url": "/credentials/network-administrator-fundamentals.jpg"
+    }
   ]
 }

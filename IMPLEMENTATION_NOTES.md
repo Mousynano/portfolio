@@ -28,8 +28,10 @@ The Work page supports one progression filter and one capability filter at a tim
 
 ## Accuracy boundaries
 
+- Deployee is presented as an internal production pilot. Client data, credentials, and unverified rollout scale are intentionally excluded.
 - FACETRO uses report-era deployed evidence. Later HAProxy/Tailscale hardening designs are not promoted as deployed work.
 - Fingerprint Attendance is labeled an installed R&D prototype, not a production client deployment.
-- EventAlpha distinguishes implemented capabilities from roadmap features. Random Forest is described as an experimental result, not an active production model.
+- EventAlpha is positioned as a recommendation R&D product, not a trading-execution app. Current data constraints and scope reduction are explicit.
+- Adaptive Cruise Control now reflects the active GA + Differential Evolution family experiment rather than the older PSO/KMA/SKA/HOA comparison.
 - DQN and tilapia are labeled research collaborations with the user's exact contribution scope.
 - The current resume PDF is preserved unchanged. See `CV_REVIEW.md` before publishing a rewritten version.

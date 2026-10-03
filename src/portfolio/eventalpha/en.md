@@ -1,35 +1,31 @@
 ## The product question
 
-Most stock tools collapse complex evidence into a confident-looking score. EventAlpha is being developed as a research and decision-support platform that keeps market data, evidence, model context, risk, and uncertainty visible.
+EventAlpha is an R&D product for **Indonesian stock recommendations**, not a brokerage or trading-execution application. The current product question is narrower than the original platform idea: can several understandable evidence streams help a user decide what deserves further attention without turning the result into a magical buy button?
 
-The goal is not to produce a guaranteed buy or sell instruction. The platform should help a researcher inspect why an opportunity is surfaced, what evidence supports it, and when the system has no clear edge.
+## The current three-part direction
+
+The working product direction is a three-part screen:
+
+- **market behavior**, where MarketCore explores price/market features and forecasting or statistical experiments;
+- **company and event evidence**, where NewsLens tracks relevant disclosures, corporate actions, and whether an event is still active or has effectively expired;
+- **investability / statistical context**, where interpretable indicators can help prevent a recommendation from depending on one model output alone.
+
+The exact variables are still being reduced. The front-facing product should remain understandable even if the internal research uses many features.
 
 ## What currently exists
 
-The current repository contains a modular product stack:
+The repository already contains modular services and experimentation infrastructure across React, Express, FastAPI, PostgreSQL, containerized local services, data preparation, model experimentation, and evidence processing.
 
-- a React frontend and Express API;
-- a FastAPI internal AI service;
-- PostgreSQL with vector support, Redis workers, and MinIO storage;
-- market-data ingestion and technical feature preparation;
-- local model training, reviewed release packages, a model registry, promotion, and inference workflows;
-- corporate-action and news evidence processing;
-- reporting, job tracking, and automation workflows.
-
-Early experiments evaluated several models. Random Forest produced the strongest result in one training comparison, but it is an experimental baseline rather than an active production model.
+The current engineering priority is **stabilization with available data**, not adding paid data dependencies or presenting every exploratory component as production-ready. Some data sources and collection paths are still under review, including how IDX documents should be collected and maintained responsibly.
 
 ## What I own
 
-I designed and iterated on the system architecture, container deployment, data and training workflow, model registry, operational boundaries, and evidence-oriented product flow. A large part of the engineering work has been reducing ambiguity: separating local training from Docker inference, validating release artifacts, preventing seed data from entering real training, and documenting when the system falls back to news-only output.
+I design the product and system architecture, service boundaries, container setup, experiment workflow, evidence lifecycle, and capability boundaries. I also use the project as a forcing function for deciding what *not* to build: execution trading, opaque recommendation scores, and large data dependencies are deliberately outside the current scope.
 
-## Current capability versus roadmap
+## Recommendation, not execution
 
-Corporate-action and news processing is implemented. A complete fundamental or money-management analysis layer remains on the roadmap. Technical market features and experimentation exist, but a unified technical-screening product workflow is still being developed.
+EventAlpha is intended to surface candidates and evidence for further review. It does not place trades, manage brokerage accounts, or claim guaranteed returns. This keeps the engineering problem focused on recommendation quality, evidence relevance, and explainability while avoiding pretending that an experimental system is a regulated execution product.
 
-The cover diagram on this page represents the target screening workflow: market data, news, and technical evidence feeding an AI-supported decision layer. It should not be read as a claim that every source is already fused into one validated production model.
+## Current constraint
 
-## Reliability and honesty constraints
-
-The platform treats yfinance as a convenience data source, not an exchange-grade contractual feed. Model confidence is not yet calibrated. News is a separate evidence layer and should not raise or reverse technical confidence until an out-of-sample fusion plan is validated.
-
-These caveats are part of the product, not footnotes to hide after the demo. EventAlpha is still in development, and its waitlist will open after a stable public experience exists.
+The main blocker is no longer architecture breadth. It is deciding which data can be obtained consistently enough to support a narrow, trustworthy screening workflow. Until that is stable, new models are less valuable than a smaller product with explicit data provenance and evidence expiry.

@@ -1,35 +1,31 @@
 ## Pertanyaan produk
 
-Banyak stock tools merangkum evidence yang kompleks menjadi skor yang terlihat sangat yakin. EventAlpha dikembangkan sebagai platform riset dan decision-support yang menjaga market data, evidence, konteks model, risiko, dan ketidakpastian tetap terlihat.
+EventAlpha adalah produk R&D untuk **rekomendasi saham Indonesia**, bukan aplikasi broker atau eksekusi trading. Pertanyaan produk saat ini lebih sempit daripada ide platform awal: apakah beberapa evidence stream yang mudah dipahami dapat membantu pengguna menentukan saham mana yang layak diperiksa lebih lanjut tanpa mengubah hasilnya menjadi tombol buy yang seolah-olah ajaib?
 
-Tujuannya bukan menghasilkan instruksi buy atau sell yang dijamin benar. Platform harus membantu researcher memahami mengapa suatu peluang ditampilkan, evidence apa yang mendukungnya, dan kapan sistem sebenarnya tidak memiliki clear edge.
+## Arah tiga bagian saat ini
 
-## Yang sudah tersedia
+Arah produk yang sedang digunakan adalah screening tiga bagian:
 
-Repository saat ini memiliki product stack modular:
+- **market behavior**, di mana MarketCore mengeksplorasi price/market feature serta eksperimen forecasting atau statistik;
+- **company dan event evidence**, di mana NewsLens melacak disclosure dan corporate action yang relevan serta apakah event tersebut masih aktif atau sudah efektif selesai;
+- **investability / statistical context**, di mana indikator yang interpretable dapat membantu agar rekomendasi tidak bergantung pada satu output model saja.
 
-- frontend React dan API Express;
-- internal AI service berbasis FastAPI;
-- PostgreSQL dengan vector support, Redis worker, dan MinIO storage;
-- market-data ingestion dan persiapan technical feature;
-- local model training, reviewed release package, model registry, promotion, dan inference workflow;
-- pemrosesan evidence corporate action dan berita;
-- reporting, job tracking, dan automation workflow.
+Variable persisnya masih terus dikurangi. Product surface yang dilihat user harus tetap mudah dipahami meskipun riset internal menggunakan banyak feature.
 
-Eksperimen awal mengevaluasi beberapa model. Random Forest memberikan hasil terkuat pada salah satu perbandingan training, tetapi statusnya adalah experimental baseline, bukan active production model.
+## Yang saat ini sudah ada
 
-## Kontribusi saya
+Repository sudah memiliki service modular dan experimentation infrastructure berbasis React, Express, FastAPI, PostgreSQL, local services ter-containerize, data preparation, model experimentation, dan evidence processing.
 
-Saya merancang dan mengiterasi arsitektur sistem, container deployment, workflow data dan training, model registry, batas operasional, serta product flow berbasis evidence. Sebagian besar pekerjaan engineering berfokus pada pengurangan ambiguitas: memisahkan local training dari Docker inference, memvalidasi release artifact, mencegah seed data masuk ke training nyata, dan mendokumentasikan kondisi fallback ke news-only output.
+Prioritas engineering saat ini adalah **stabilisasi menggunakan data yang tersedia**, bukan menambah dependency data berbayar atau mempresentasikan semua komponen eksperimen sebagai production-ready. Beberapa sumber dan collection path masih dievaluasi, termasuk bagaimana dokumen IDX dapat dikumpulkan dan dipelihara secara bertanggung jawab.
 
-## Fitur saat ini dan roadmap
+## Yang saya tangani
 
-Corporate-action dan news processing sudah diimplementasikan. Fundamental atau money-management analysis yang lengkap masih berada pada roadmap. Technical market feature dan experimentation sudah tersedia, tetapi unified technical-screening product workflow masih dalam pengembangan.
+Saya merancang product dan system architecture, service boundary, container setup, experiment workflow, evidence lifecycle, dan capability boundary. Proyek ini juga saya gunakan untuk memaksa keputusan tentang apa yang *tidak* perlu dibangun: execution trading, recommendation score yang opaque, dan dependency data besar sengaja berada di luar scope saat ini.
 
-Diagram cover pada halaman ini menggambarkan target screening workflow: market data, news, dan technical evidence menuju AI-supported decision layer. Diagram tersebut bukan klaim bahwa seluruh sumber sudah difusion menjadi satu production model yang tervalidasi.
+## Rekomendasi, bukan eksekusi
 
-## Constraint reliability dan kejujuran
+EventAlpha ditujukan untuk menampilkan kandidat dan evidence yang layak diperiksa lebih lanjut. Sistem tidak mengeksekusi trade, mengelola brokerage account, atau mengklaim return yang dijamin. Dengan begitu problem engineering tetap fokus pada kualitas rekomendasi, relevansi evidence, dan explainability tanpa berpura-pura bahwa sistem eksperimental adalah produk eksekusi yang regulated.
 
-Platform memperlakukan yfinance sebagai convenience data source, bukan feed exchange-grade dengan kontrak layanan. Confidence model belum terkalibrasi. News masih menjadi evidence layer terpisah dan tidak seharusnya menaikkan atau membalik technical confidence sebelum fusion plan tervalidasi secara out-of-sample.
+## Constraint saat ini
 
-Caveat ini merupakan bagian produk, bukan catatan kecil yang disembunyikan setelah demo. EventAlpha masih dalam pengembangan dan waitlist akan dibuka setelah public experience yang stabil tersedia.
+Blocker utama sekarang bukan lagi luasnya arsitektur. Masalah utamanya adalah menentukan data apa yang bisa diperoleh cukup konsisten untuk mendukung workflow screening yang sempit dan dapat dipercaya. Sebelum hal tersebut stabil, menambah model baru kurang bernilai dibanding membuat produk lebih kecil dengan data provenance dan evidence expiry yang eksplisit.
